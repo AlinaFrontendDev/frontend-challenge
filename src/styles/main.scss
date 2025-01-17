@@ -1,0 +1,11 @@
+@import "variables";
+@import "mixins";
+@import "header";
+@import "buttons";
+@import "grid";
+
+body {
+  margin: 0;
+  background-color: $background-color;
+  color: $text-color;
+}

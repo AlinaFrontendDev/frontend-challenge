@@ -1,0 +1,12 @@
+button {
+  background: $primary-color;
+  border: none;
+  color: $secondary-color;
+  padding: 8px 23px;
+  cursor: pointer;
+  transition: background 0.3s;
+
+  &:hover {
+    background: $hover-button-color;
+  }
+}

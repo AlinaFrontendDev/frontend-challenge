@@ -1,0 +1,32 @@
+header {
+  background-color: $primary-color;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.25px;
+
+  nav {
+    @include flex-layout;
+    padding-left: 62px;
+
+    button {
+      background: transparent;
+      border: none;
+      color: $secondary-color;
+      padding: 26px 23px;
+      cursor: pointer;
+      transition: background 0.3s;
+
+      &:hover {
+        background: $hover-button-color;
+        color: $secondary-color;
+      }
+
+      &.active {
+        background: $active-button-color;
+        color: $secondary-color;
+      }
+    }
+  }
+}
